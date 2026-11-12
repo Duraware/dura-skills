@@ -1,0 +1,20 @@
+{
+  "name": "dura-skills",
+  "owner": { "name": "Duraware" },
+  "metadata": {
+    "description": "AI skills and agents for Claude and GitHub Copilot."
+  },
+  "plugins": [
+    {
+      "name": "architect",
+      "source": "./",
+      "strict": false,
+      "description": "Software architecture mentor (skill + agent). Explains, reviews and evolves architecture documentation, writes ADRs, weighs trade-offs.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "category": "architecture",
+      "skills": ["./skills/architect"],
+      "agents": ["./agents/architect.agent.md"]
+    }
+  ]
+}
